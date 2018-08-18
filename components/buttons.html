@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Buttons | Yare Web-Components</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Buttons" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Web components using bootstrap framework." />
+<meta property="og:description" content="Web components using bootstrap framework." />
+<link rel="canonical" href="http://localhost:4000/components/buttons" />
+<meta property="og:url" content="http://localhost:4000/components/buttons" />
+<meta property="og:site_name" content="Yare Web-Components" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/components/buttons","headline":"Buttons","description":"Web components using bootstrap framework.","@type":"WebPage","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Yare Web-Components" /></head>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #459fed!important;">
+  <a class="navbar-brand" href="/" aria-label="Yare Button">
+    <img src="/assets/img/yareLogo.png" width="80" height="40" class="d-block"/>
+  </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav"><a class="nav-item nav-link " href="/about/" >
+              About
+          </a><a class="nav-item nav-link " href="/" >
+              Custom Elements
+          </a><a class="nav-item nav-link active" href="/components/buttons" >
+              Buttons
+          </a></div>
+  </div>
+  <form class="form-inline">
+      <button class="btn btn-success" type="button">Buy</button>
+    </form></nav>
+
+
+    <main class="container mt-1" role="main">
+      <div class="row">
+        <div class="col">
+  <h1 id="yare-buttons">Yare Buttons</h1>
+
+<p>This web component creates buttons easily. You have only to add a tag like this <code class="highlighter-rouge">&lt;yare-button value="click me"/&gt;</code> and set its attributes dynamically to render the custom button.</p>
+
+<h2 id="button-types">Button types</h2>
+
+<hr />
+
+<p>There are two kinds of buttons: <code class="highlighter-rouge">&lt;button&gt;</code> and <code class="highlighter-rouge">&lt;a&gt;</code> elements.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><yare-button value="Button"></yare-button></td>
+      <td> <code class="highlighter-rouge">&lt;yare-button value="Button"/&gt;</code></td>
+    </tr>
+    <tr>
+      <td><yare-anchor value="Anchor" href="https://themeforest.net/"></yare-anchor></td>
+      <td> <code class="highlighter-rouge">&lt;yare-anchor value="Anchor" href="https://themeforest.net/"/&gt;</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+<h2 id="colors">Colors</h2>
+
+<hr />
+
+<p>You can choose the button color changing the attr <code class="highlighter-rouge">color="primary"</code>.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td> <yare-button value="blue"></yare-button></td>
+      <td> <yare-button value="gray" color="secondary"></yare-button></td>
+      <td> <yare-button value="green" color="success"></yare-button></td>
+      <td> <yare-button value="red" color="danger"></yare-button></td>
+      <td> <yare-button value="yellow" color="warning"></yare-button></td>
+      <td> <yare-button value="aqua" color="info"></yare-button></td>
+      <td> <yare-button value="light" color="light"></yare-button></td>
+      <td> <yare-button value="dark" color="dark"></yare-button></td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">primary</code></td>
+      <td><code class="highlighter-rouge">secondary</code></td>
+      <td><code class="highlighter-rouge">success</code></td>
+      <td><code class="highlighter-rouge">danger</code></td>
+      <td><code class="highlighter-rouge">warning</code></td>
+      <td><code class="highlighter-rouge">info</code></td>
+      <td><code class="highlighter-rouge">light</code></td>
+      <td><code class="highlighter-rouge">dark</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+<h2 id="layouts">Layouts</h2>
+
+<hr />
+
+<p>Change the button style setting a pattern. The default pattern is bootstrap buttons.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><yare-button value="outline" pattern="outline"></yare-button> </td>
+      <td><code class="highlighter-rouge">pattern="outline"</code></td>
+    </tr>
+    <tr>
+      <td><yare-anchor value="outline-circle" color="secondary" pattern="outline-circle"></yare-anchor> </td>
+      <td><code class="highlighter-rouge">pattern="outline-circle"</code></td>
+    </tr>
+    <tr>
+      <td><yare-anchor value="circle" color="danger" pattern="circle"></yare-anchor> </td>
+      <td><code class="highlighter-rouge">pattern="circle"</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+<h2 id="sizes">Sizes</h2>
+
+<hr />
+
+<table>
+  <tbody>
+    <tr>
+      <td><yare-button value="small" size="sm"></yare-button></td>
+      <td><code class="highlighter-rouge">size="sm"</code></td>
+    </tr>
+    <tr>
+      <td><yare-anchor value="long" size="lg"></yare-anchor></td>
+      <td>  <code class="highlighter-rouge">size="lg"</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+<h2 id="icons">Icons</h2>
+
+<hr />
+
+<p>This component is supporting <a href="https://fontawesome.com/icons?d=gallery&amp;q=success&amp;m=free">fontawesome icons</a>. In order to render an icon you’ll need to add an attribute <code class="highlighter-rouge">icon="xbox"</code>, but you have to remove <code class="highlighter-rouge">fa-</code> from <code class="highlighter-rouge">fa-xbox</code>.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><yare-button value="Facebook" icon="facebook-square"></yare-button> </td>
+      <td><code class="highlighter-rouge">facebook-square</code></td>
+    </tr>
+    <tr>
+      <td><yare-button value="Google+" color="danger" icon="google-plus"></yare-button> </td>
+      <td><code class="highlighter-rouge">google-plus</code></td>
+    </tr>
+    <tr>
+      <td><yare-anchor color="warning" icon="amazon"></yare-anchor> </td>
+      <td><code class="highlighter-rouge">amazon</code></td>
+    </tr>
+    <tr>
+      <td><yare-button icon="apple" color="light" pattern="circle" size="sm"></yare-button> </td>
+      <td><code class="highlighter-rouge">apple</code></td>
+    </tr>
+    <tr>
+      <td><yare-button icon="check-circle" color="success" pattern="outline-circle" size="sm"></yare-button> </td>
+      <td><code class="highlighter-rouge">check-circle</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+</div>
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+  </body>
+</html>
