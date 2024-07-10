@@ -1,0 +1,407 @@
+{
+    "name": "Humberto Segundo Rosas",
+    "shortName": "Humberto",
+    "title": "Web UI Developer Sr, Software Engineer",
+    "email": "humberto2do@gmail.com",
+    "phone": "510-604-46-14",
+    "summary": "I am an accomplished software engineer, boasting an extensive 13-year background in analyzing, designing, developing, and integrating web application solutions. EXPERT in Angular, React and Node.js. I excel in implementing enhancements to user experience and code quality. My attributes include being a fast learner, highly committed, and adaptable in various scenarios.",
+    "languages": [
+        "Spanish (native - C2)",
+        "English (advanced - B2)"
+    ],
+    "education": [
+        {
+            "degree": "Computer Engineering",
+            "university": "Universidad Nacional Autónoma de México",
+            "location": "Mexico City, Mexico",
+            "startDate": "2005-08-01",
+            "endDate": "2009-08-01"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Globant",
+            "location": "San Francisco, California",
+            "projects": [
+                {
+                    "title": "Web UI Developer Sr, Software Designer",
+                    "name": "Google(FA)",
+                    "startDate": "2024-01-01",
+                    "endDate": "Present",
+                    "responsibilities": [
+                        "Integrated Chat Bot of Dialog Flow CX and highlighted it with React. That view is used in presales with clients.",
+                        "Developed Video Advanced Search UI with NextJs, Material UI and React. Created a couple of components like: video player, carousel, form filters, modal, slide etc. Consumed Generative AI API to get videos where a text or image are sent to find videos that have those prompts.  The platform was shown in Google's Next 24 event and it got client demos for presales."
+                    ],
+                    "tools": [
+                        "React",
+                        "NextJs",
+                        "Material UI",
+                        "Python",
+                        "Typescript",
+                        "Google Cloud"
+                    ]
+                },
+                {
+                    "title": "Web UI Developer Sr, Software Designer",
+                    "name": "Citibank - Support Wealth Program",
+                    "startDate": "2020-01-01",
+                    "endDate": "2023-12-01",
+                    "responsibilities": [
+                        "Implemented Angular features for the wealth domain. Developed tiles to show transactions and holdings on the dashboard. Created charts to show the net worth of accounts. Created two learning modules to courses and articles related to investment.",
+                        "Implemented new Angular features for the credit card domain. Developed forms where a customer can apply for a new credit card in citi.",
+                        "Made unit testing in Angular.",
+                        "Created custom components with Angular having ADA complaints. Tested all components with tools like NVDA and Axe to get quick feedback on ADA issues.",
+                        "Implemented responsive design in Angular components.",
+                        "Estimated user stories in grooming meetings.",
+                        "Handled states with Ngrx in feature modules depending on the requirement.",
+                        "Used RxJs operators to handle events between components.",
+                        "Created Behavior Driven Development with cucumber. Created automated scripts to test acceptance criteria in user stories in browsers, androids and iphones.",
+                        "Deployed and published feature modules using jenkins.",
+                        "Managed release branches in bitbucket and code reviews.",
+                        "Tested in production release for new features and fixes.",
+                        "Mapped BDD scripts in Zephyr to run a bundle of scripts and reflect the result in the jira platform."
+                    ],
+                    "tools": [
+                        "Angular",
+                        "Material UI",
+                        "RxJs",
+                        "Ngrx",
+                        "Cucumber",
+                        "Typescript",
+                        "NVDA",
+                        "Axe",
+                        "Jenkins",
+                        "maven"
+                    ]
+                },
+                {
+                    "title": "Web UI Developer Sr",
+                    "name": "SitusAMC",
+                    "startDate": "2020-10-01",
+                    "endDate": "2020-12-01",
+                    "responsibilities": [
+                        "Defined microservice and MVC architectures in .net core.",
+                        "Analyzed communication with React front ends.",
+                        "Worked in the migration of a legacy platform and started the backlog for the essential features to deliver a MVP.",
+                        "Integrated okta authentication.",
+                        "Analyzed existing React libraries to reuse in our new projects.",
+                        "Worked on a proof of concept to add a navigation bar in our new application."
+                    ],
+                    "tools": [
+                        "React",
+                        "Javascript",
+                        "Typescript",
+                        "MVC .Net Core"
+                    ]
+                },
+                {
+                    "title": "Web UI Developer Sr",
+                    "name": "Rockwell Automation",
+                    "startDate": "Jul 2020",
+                    "endDate": "Sep 2020",
+                    "responsibilities": [
+                        "Made some refactor and technical debt in a node js app. Exposed git diff functionality as an API to be consumed by a Rockwell IDE.",
+                        "Helped migrate mono repo to multi-repo in an Angular app. Rockwell was building an IDE (web and desktop). Contribute to make the migration automatic by scripts in node js.",
+                        "Clean code and improved performance in custom libraries."
+                    ],
+                    "tools": [
+                        "Angular",
+                        "git",
+                        "nodejs",
+                        "Jest"
+                    ]
+                },
+                {
+                    "title": "Web UI Developer Sr",
+                    "name": "Zaplabs LLC",
+                    "startDate": "Jan. 2019",
+                    "endDate": "Jun 2020",
+                    "responsibilities": [
+                        "Fixed bugs in Zaplabs’ web applications. Needed to touch Java and JavaScript code(NodeJs app).",
+                        "Developed new features using web components.",
+                        "Made refactors to improve quality code (sentry issues.)",
+                        "Created javascript tests to increase the coverage (cypress.)",
+                        "Helped the dev team with doubts about the code (mentorship.)",
+                        "Code review to detect potential bugs.",
+                        "Analyzed code to improve performance.",
+                        "Added or updated docker files in NodeJs apps to automate deployments.",
+                        "Implemented logs in NodeJs apps to improve debugging in production (datadog).",
+                        "Estimate tickets."
+                    ],
+                    "tools": [
+                        "Webpack",
+                        "web components",
+                        "ADA",
+                        "node js",
+                        "java",
+                        "docker"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Globant",
+            "location": "Mexico City, Mexico",
+            "projects": [
+                {
+                    "title": "Web UI Developer Sr",
+                    "name": "Zaplabs LLC",
+                    "startDate": "Jan. 2019",
+                    "endDate": "Jun 2020",
+                    "responsibilities": [
+                        "Fixed bugs in Zaplabs’ web applications. Needed to touch Java and JavaScript code(NodeJs app).",
+                        "Developed new features using web components.",
+                        "Made refactors to improve quality code (sentry issues.)",
+                        "Created javascript tests to increase the coverage (cypress.)",
+                        "Helped the dev team with doubts about the code (mentorship.)",
+                        "Code review to detect potential bugs.",
+                        "Analyzed code to improve performance.",
+                        "Added or updated docker files in NodeJs apps to automate deployments.",
+                        "Implemented logs in NodeJs apps to improve debugging in production (datadog).",
+                        "Estimate tickets."
+                    ],
+                    "tools": [
+                        "Webpack",
+                        "web components",
+                        "ADA",
+                        "node js",
+                        "java",
+                        "docker"
+                    ]
+                },
+                {
+                    "title": "Web UI Developer Semi Sr Advanced",
+                    "name": "IHS Markit",
+                    "startDate": "Nov. 2018",
+                    "endDate": "Dec. 2018",
+                    "responsibilities": [
+                        "Developed web components with the SvelteJs framework for a financial web application.",
+                        "Developed graphical components to show banking account data.",
+                        "Created rest services in NodeJs (express) to fetch data to populate the UI."
+                    ],
+                    "tools": [
+                        "SvelteJs",
+                        "javascript",
+                        "restful web services"
+                    ]
+                },
+                {
+                    "title": "Web UI Developer Semi Sr",
+                    "name": "Zaplabs LLC",
+                    "startDate": "Jan. 2018",
+                    "endDate": "Oct. 2018",
+                    "responsibilities": [
+                        "Developed reusable web components with atomic design (custom elements).",
+                        "Handled styles by Sass framework.",
+                        "Coded javascript with ES6.",
+                        "Developed unit tests with Cypress framework.",
+                        "Built javascript modules with Webpack.",
+                        "Adapted Java code to be consumed by the front end."
+                    ],
+                    "tools": [
+                        "Webpack",
+                        "web components",
+                        "ADA",
+                        "java",
+                        "glup"
+                    ]
+                },
+                {
+                    "title": "Web UI Developer Semi Sr",
+                    "name": "Citi Banamex",
+                    "startDate": "Jul. 2017",
+                    "endDate": "Dic. 2017",
+                    "responsibilities": [
+                        "Contributed to the implementation of a Credit Card Portal.",
+                        "Created the portal's views based on design specifications and business rules.",
+                        "Implemented styles with Sass.",
+                        "Created views with AngularJs using the Backbase tool.",
+                        "Increased coverage (unit tests). Those tests were developed with Jasmine and Karma.",
+                        "Helped the backend team fix some Java issues."
+                    ],
+                    "tools": [
+                        "Angularjs",
+                        "sass",
+                        "java"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Diesvi",
+            "location": "Mexico City, Mexico",
+            "projects": [
+                {
+                    "title": "Technical Leader",
+                    "name": "",
+                    "startDate": "Jun. 2015",
+                    "endDate": "May. 2017",
+                    "responsibilities": [
+                        "Migrated a desktop app to the web (diesvi.itrustre.com).",
+                        "Worked on a new web application that managed insurance into ICA Projects.",
+                        "Developed a portal to display the reinsurer’s business.",
+                        "Worked on a RESTful API to download and upload attachments.",
+                        "Worked on implementing the Continuous Integration with a TeamCity Server.",
+                        "Worked to create a lot of innovative User interfaces with JavaScript.",
+                        "Created unit testing (xUnit)."
+                    ],
+                    "tools": [
+                        "C#",
+                        "MVC .net core",
+                        "xunit",
+                        "Kendo UI",
+                        "TeamCity",
+                        "SQL Server"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Clickonero",
+            "location": "Mexico City, Mexico",
+            "projects": [
+                {
+                    "title": "Web Developer",
+                    "name": "",
+                    "startDate": "Jun. 2013",
+                    "endDate": "May. 2015",
+                    "responsibilities": [
+                        "Developed a web application to manage the company’s products.",
+                        "Developed a web application to manage the company’s clients.",
+                        "Developed a web application to manage the company’s sales.",
+                        "Developed a web application to manage the company’s promotions."
+                    ],
+                    "tools": [
+                        "PHP",
+                        "MySQL",
+                        "HTML",
+                        "CSS",
+                        "JavaScript"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "MakingDevs",
+            "location": "Mexico City, Mexico",
+            "projects": [
+                {
+                    "title": "Web Developer Sr (Grails framework)",
+                    "name": "",
+                    "startDate": "Dic. 2014",
+                    "endDate": "Feb. 2015",
+                    "responsibilities": [
+                        "Done new features in  Escuela Bancaria y Comercial system. Features needed to change database structure, business logic, and user interface.",
+                        "Added new features to a sailing application.",
+                        "Made maintenance on the makingdevs website (makingdevs.com).",
+                        "Added login with social networks like Facebook, Twitter, GitHub, and Gmail."
+                    ],
+                    "tools": [
+                        "groovy",
+                        "javascript"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "TV Azteca",
+            "location": "Mexico City, Mexico",
+            "projects": [
+                {
+                    "title": "Web Developer Sr",
+                    "name": "",
+                    "startDate": "Oct. 2012",
+                    "endDate": "Nov. 2014",
+                    "responsibilities": [
+                        "Develop HTML pages from mockups.",
+                        "Created a single-page application with  vanilla JavaScript  to achieve a modular application with only prototypes.",
+                        "Structured MVC backend. Data layer was implemented with hibernate, the service layer contained all business rules and transactions, and controllers communicated with the front end.",
+                        "UX was handled with the Bootstrap 4 framework.",
+                        "Agile methodology to deliver releases by sprints.",
+                        "Developed a rest API to an iOS app.",
+                        "The final work was www.mymapmanager.com"
+                    ],
+                    "tools": [
+                        "groovy",
+                        "restful web services",
+                        "javascript",
+                        "hibernate",
+                        "Grails",
+                        "mysql"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Consultant in IBM",
+            "location": "Mexico City, Mexico",
+            "projects": [
+                {
+                    "title": "Web Developer Jr",
+                    "name": "Project Afore Banamex",
+                    "startDate": "Feb. 2011",
+                    "endDate": " Feb. 2012",
+                    "responsibilities": [
+                        "Transform use cases to UML diagrams: sequence, class, flow, and activity. That helped with automated tools to generate java code.",
+                        "Created documentation of SOAP contract between services."
+                    ],
+                    "tools": [
+                        "Java",
+                        "UML",
+                        "IBM IDEs"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "IXPAN",
+            "location": "Mexico City, Mexico",
+            "projects": [
+                {
+                    "title": "Java Developer Jr",
+                    "name": "",
+                    "startDate": "Jan. 2010",
+                    "endDate": " Jan. 2011",
+                    "responsibilities": [
+                        "Developed features and fixed bugs in banking clients",
+                        "Upgraded Ixpan’s website from Flash to HTML and Javascript. The site looked more modern.",
+                        "Developed a soap web service to send email notifications. This helped the clients to have a government complain.",
+                        "Created SQL scripts as jobs to run them every ending day in bank clients."
+                    ],
+                    "tools": [
+                        "Java",
+                        "html"
+                    ]
+                }
+            ]
+        }
+    ],
+    "skills": [
+        {"name":"React", "level": "EXPERT"},
+        {"name":"Angular", "level": "EXPERT"},
+        {"name":"Typescript", "level": "EXPERT"},
+        {"name":"Nextjs", "level": "EXPERT"},
+        {"name":"RxJs", "level": "EXPERT"},
+        {"name":"NgRx", "level": "EXPERT"},
+        {"name":"JavaScript ES5 & ES6", "level": "EXPERT"},
+        {"name":"NodeJs", "level": "EXPERT"},
+        {"name":"Bootstrap", "level": "EXPERT"},
+        {"name":"Material UI", "level": "EXPERT"},
+        {"name":"CSS & Sass", "level": "EXPERT"},
+        {"name":"Web Components", "level": "EXPERT"},
+        {"name":"Server Side Rendering", "level": "EXPERT"},
+        {"name":"Jest", "level": "EXPERT"},
+        {"name":"RESTful Services", "level": "EXPERT"},
+        {"name":"git", "level": "EXPERT"},
+        {"name":"Jenkins", "level": "FAMILIAR"},
+        {"name":"Cucumber", "level": "FAMILIAR"},
+        {"name":"Java", "level": "FAMILIAR"},
+        {"name":"SQL", "level": "FAMILIAR"},
+        {"name":"Svelte.js", "level": "FAMILIAR"},
+        {"name":"Webpack", "level": "FAMILIAR"},
+        {"name":"Cypress", "level": "FAMILIAR"},
+        {"name":"Jasmin", "level": "FAMILIAR"},
+        {"name":"Python", "level": "FAMILIAR"},
+        {"name":"Redux", "level": "FAMILIAR"}
+    ]
+}

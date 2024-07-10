@@ -1,11 +1,10 @@
 import { FC } from 'react';
+import ResumeView from '@/components/Resume';
+import resume from '@/data/resume.json'; 
+import { Resume } from '@/model/resume';
 
 const Page: FC = () => {
-    return (
-        <div>
-            <h1>Welcome to My Resume Page</h1>
-        </div>
-    );
+    return <ResumeView resume={ resume as Resume } />;
 };
 
 export default Page;
