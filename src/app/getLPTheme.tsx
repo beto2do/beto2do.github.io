@@ -125,6 +125,86 @@ function getLPTheme(): ThemeOptions {
             selected: brand[800],
         },
     },
+    typography: {
+      h1: {
+        fontSize: 60,
+        fontWeight: 600,
+        lineHeight: 78 / 70,
+        letterSpacing: -0.2,
+      },
+      h2: {
+        fontSize: 48,
+        fontWeight: 600,
+        lineHeight: 1.2,
+      },
+      h3: {
+        fontSize: 42,
+        lineHeight: 1.2,
+      },
+      h4: {
+        fontSize: 36,
+        fontWeight: 500,
+        lineHeight: 1.5,
+      },
+      h5: {
+        fontSize: 20,
+        fontWeight: 600,
+      },
+      h6: {
+        fontSize: 18,
+      },
+      subtitle1: {
+        fontSize: 18,
+      },
+      subtitle2: {
+        fontSize: 16,
+      },
+      body1: {
+        fontWeight: 400,
+        fontSize: 15,
+      },
+      body2: {
+        fontWeight: 400,
+        fontSize: 14,
+      },
+      caption: {
+        fontWeight: 400,
+        fontSize: 12,
+      },
+    },
+    components: {
+      MuiAccordion: {
+        defaultProps: {
+          elevation: 0,
+          disableGutters: true,
+        },
+        styleOverrides: {
+          root: {
+            padding: 8,
+            overflow: 'clip',
+            backgroundColor: gray[900],
+            border: 'none',
+            ':before': {
+              backgroundColor: 'transparent',
+            },
+          }
+        },
+      },
+      MuiAccordionSummary: {
+        styleOverrides: {
+          root: {
+            border: 'none',
+            borderRadius: 8,
+            '&:hover': { backgroundColor: gray[800] },
+          },
+        },
+      },
+      MuiAccordionDetails: {
+        styleOverrides: {
+          root: { mb: 20, border: 'none' },
+        },
+      },
+    },
     }
 }
 
