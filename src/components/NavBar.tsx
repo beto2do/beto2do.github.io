@@ -15,6 +15,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Link from 'next/link'
 import CodeIcon from '@mui/icons-material/DeveloperMode';
+import { useRouter } from 'next/navigation';
 
 
 const devName = 'Humberto';
@@ -49,11 +50,15 @@ const navItems = [
 export default function NavBar(props: Props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  const router = useRouter();
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
 
+  const handleRedirect = (path: string) => {
+    router.push(path);
+  };
   const drawer = (
       <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h5" sx={{ my: 2 }}>
@@ -70,11 +75,9 @@ export default function NavBar(props: Props) {
       <List>
         {navItems.map((item) => (
             <ListItem key={item.label} disablePadding>
-                <Link href={item.path}>
-                    <ListItemButton sx={{ textAlign: 'center' }}>
-                    <ListItemText primary={item.label} />
-                    </ListItemButton>
-                </Link>
+                <ListItemButton onClick={() => handleRedirect(item.path)}>
+                    <ListItemText primary={item.label} color='primary' />
+                </ListItemButton>
           </ListItem>
         ))}
       </List>
@@ -114,7 +117,7 @@ export default function NavBar(props: Props) {
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                     {navItems.map((item) => (
                     <Link key={item.label} href={item.path}>
-                        <Button  sx={{ color: '#fff' }}>
+                        <Button>
                             {item.label}
                         </Button>
                     </Link>
