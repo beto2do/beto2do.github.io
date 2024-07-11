@@ -20,55 +20,94 @@ declare module '@mui/material/styles/createPalette' {
 }
 
 export const brand = {
-  50: '#F0F7FF',
-  100: '#CEE5FD',
-  200: '#9CCCFC',
-  300: '#55A6F6',
-  400: '#0A66C2',
-  500: '#0959AA',
-  600: '#064079',
-  700: '#033363',
-  800: '#02294F',
-  900: '#021F3B',
+  50: '#e9eef9',
+  100: '#c6d4f1',
+  200: '#9fb9e8',
+  300: '#769ddf',
+  400: '#5185d8',
+  500: '#1c6fd2',
+  600: '#0f66c8',
+  700: '#005bbb',
+  800: '#0051af',
+  900: '#003f9a',
 };
 
 export const secondary = {
-  50: '#F9F0FF',
-  100: '#E9CEFD',
-  200: '#D49CFC',
-  300: '#B355F6',
-  400: '#750AC2',
-  500: '#6709AA',
-  600: '#490679',
-  700: '#3B0363',
-  800: '#2F024F',
-  900: '#23023B',
+  50: '#efeff0',
+  100: '#d5d8de',
+  200: '#babfc8',
+  300: '#9ea5b3',
+  400: '#8991a2',
+  500: '#747e92',
+  600: '#666f81',
+  700: '#545b6a',
+  800: '#444954',
+  900: '#31343c',
+};
+
+export const info = {
+  50: '#f3e6f4',
+  100: '#e1c0e5',
+  200: '#d096d6',
+  300: '#bd6cc6',
+  400: '#af4bba',
+  500: '#a12daf',
+  600: '#9329a9',
+  700: '#8024a1',
+  800: '#701f99',
+  900: '#51188b',
 };
 
 export const gray = {
-  50: '#FBFCFE',
-  100: '#EAF0F5',
-  200: '#D6E2EB',
-  300: '#BFCCD9',
-  400: '#94A6B8',
-  500: '#5B6B7C',
-  600: '#4C5967',
-  700: '#364049',
-  800: '#131B20',
-  900: '#090E10',
+  50: '#f9f8fb',
+  100: '#f1f0f3',
+  200: '#e7e5e9',
+  300: '#d6d5d8',
+  400: '#b1b0b3',
+  500: '#919093',
+  600: '#69686b',
+  700: '#565558',
+  800: '#373739',
+  900: '#181719',
 };
 
 export const green = {
-  50: '#F6FEF6',
-  100: '#E3FBE3',
-  200: '#C7F7C7',
-  300: '#A1E8A1',
-  400: '#51BC51',
-  500: '#1F7A1F',
-  600: '#136C13',
-  700: '#0A470A',
-  800: '#042F04',
-  900: '#021D02',
+  50: '#f2f8e6',
+  100: '#ddedc0',
+  200: '#c6e197',
+  300: '#afd56c',
+  400: '#9ccd48',
+  500: '#89c41c',
+  600: '#79b412',
+  700: '#63a002',
+  800: '#4e8c00',
+  900: '#226b00',
+};
+
+export const red = {
+  50: '#ffecee',
+  100: '#ffcfd2',
+  200: '#fa9c98',
+  300: '#f47570',
+  400: '#ff5549',
+  500: '#ff4429',
+  600: '#f63b2b',
+  700: '#e42f25',
+  800: '#d7271d',
+  900: '#c71a0f',
+};
+
+export const yellow = {
+  50: '#fffee8',
+  100: '#fefac6',
+  200: '#fdf69f',
+  300: '#fcf278',
+  400: '#f9ed59',
+  500: '#f6e83b',
+  600: '#ffdf3f',
+  700: '#fdc736',
+  800: '#fbaf2d',
+  900: '#f7871d',
 };
 
 function getLPTheme(): ThemeOptions {
@@ -76,8 +115,8 @@ function getLPTheme(): ThemeOptions {
     palette: {
         mode: 'dark',
         primary: {
-        light: brand[300],
-        main: brand[400],
+        light: brand[200],
+        main: brand[300],
         dark: brand[800],
         contrastText: brand[100],
         },
@@ -86,14 +125,20 @@ function getLPTheme(): ThemeOptions {
             main: secondary[500],
             dark: secondary[900],
         },
+        info: {
+            light: info[50],
+            main: info[100],
+            dark: info[100],
+        },
         warning: {
-            main: '#F7B538',
-            dark: '#F79F00',
+            light: yellow[400],
+            main: yellow[500],
+            dark: yellow[700],
         },
         error: {
-            light: '#D32F2F',
-            main: '#D32F2F',
-            dark: '#B22A2A' 
+            light: red[400],
+            main: red[500],
+            dark: red[700],
         },
         success: {
             light: green[400],
@@ -115,10 +160,10 @@ function getLPTheme(): ThemeOptions {
         divider: gray[600],
         background: {
             default: gray[900],
-            paper: gray[800],
+            paper: gray[900],
         },
         text: {
-            primary: '#fff',
+            primary: gray[500],
             secondary: gray[400],
         },
         action: {
@@ -202,6 +247,15 @@ function getLPTheme(): ThemeOptions {
       MuiAccordionDetails: {
         styleOverrides: {
           root: { mb: 20, border: 'none' },
+        },
+      },
+      MuiChip: {
+        styleOverrides: {
+          root: ({ theme, ownerState }) => ({
+            ...(ownerState.color === 'primary' && {
+              color: gray[900],
+            })
+          }),
         },
       },
     },

@@ -14,9 +14,9 @@ interface ChipData {
 }
   const chipData: ChipData[] = [
     { key: 0, label: 'React', color: 'primary' },
-    { key: 1, label: 'Angular', color: 'primary' },
+    { key: 1, label: 'Angular', color: 'error' },
     { key: 2, label: 'Nodejs', color: 'success' },
-    { key: 3, label: 'TypeScript', color: 'primary' },
+    { key: 3, label: 'TypeScript', color: 'info' },
     { key: 4, label: 'Nextjs', color: 'warning' },
   ];
 
