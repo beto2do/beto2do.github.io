@@ -14,10 +14,10 @@ const WorkExperienceView: FC<WorkExperienceViewProps> = ({experiences}) => {
     return (
         <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
-                <Grid xs={2}>
-                    <Typography variant="h6" gutterBottom>Work Experience</Typography>
+                <Grid xs={12} md={2}>
+                    <Typography variant="h5" gutterBottom>Work Experience</Typography>
                 </Grid>
-                <Grid xs={10}>
+                <Grid xs={12} md={10}>
                     {experiences.map((experience) => <ExperienceView key={experience.company} experience={experience} />)}
                 </Grid>
             </Grid>

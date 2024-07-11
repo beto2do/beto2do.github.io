@@ -13,7 +13,7 @@
         {
             "degree": "Computer Engineering",
             "university": "Universidad Nacional Autónoma de México",
-            "location": "Mexico City, Mexico",
+            "location": "Mexico City",
             "startDate": "2005-08-01",
             "endDate": "2009-08-01"
         }
@@ -21,12 +21,12 @@
     "experience": [
         {
             "company": "Globant",
-            "location": "San Francisco, California",
+            "location": "San Francisco, CA",
             "projects": [
                 {
                     "title": "Web UI Developer Sr, Software Designer",
                     "name": "Google(FA)",
-                    "startDate": "2024-01-01",
+                    "startDate": "Jan 2024",
                     "endDate": "Present",
                     "responsibilities": [
                         "Integrated Chat Bot of Dialog Flow CX and highlighted it with React. That view is used in presales with clients.",
@@ -44,8 +44,8 @@
                 {
                     "title": "Web UI Developer Sr, Software Designer",
                     "name": "Citibank - Support Wealth Program",
-                    "startDate": "2020-01-01",
-                    "endDate": "2023-12-01",
+                    "startDate": "Jan 2020",
+                    "endDate": "Dic 2023",
                     "responsibilities": [
                         "Implemented Angular features for the wealth domain. Developed tiles to show transactions and holdings on the dashboard. Created charts to show the net worth of accounts. Created two learning modules to courses and articles related to investment.",
                         "Implemented new Angular features for the credit card domain. Developed forms where a customer can apply for a new credit card in citi.",
@@ -141,7 +141,7 @@
         },
         {
             "company": "Globant",
-            "location": "Mexico City, Mexico",
+            "location": "Mexico City",
             "projects": [
                 {
                     "title": "Web UI Developer Sr",
@@ -229,7 +229,7 @@
         },
         {
             "company": "Diesvi",
-            "location": "Mexico City, Mexico",
+            "location": "Mexico City",
             "projects": [
                 {
                     "title": "Technical Leader",
@@ -258,7 +258,7 @@
         },
         {
             "company": "Clickonero",
-            "location": "Mexico City, Mexico",
+            "location": "Mexico City",
             "projects": [
                 {
                     "title": "Web Developer",
@@ -283,7 +283,7 @@
         },
         {
             "company": "MakingDevs",
-            "location": "Mexico City, Mexico",
+            "location": "Mexico City",
             "projects": [
                 {
                     "title": "Web Developer Sr (Grails framework)",
@@ -305,7 +305,7 @@
         },
         {
             "company": "TV Azteca",
-            "location": "Mexico City, Mexico",
+            "location": "Mexico City",
             "projects": [
                 {
                     "title": "Web Developer Sr",
@@ -334,7 +334,7 @@
         },
         {
             "company": "Consultant in IBM",
-            "location": "Mexico City, Mexico",
+            "location": "Mexico City",
             "projects": [
                 {
                     "title": "Web Developer Jr",
@@ -355,7 +355,7 @@
         },
         {
             "company": "IXPAN",
-            "location": "Mexico City, Mexico",
+            "location": "Mexico City",
             "projects": [
                 {
                     "title": "Java Developer Jr",
