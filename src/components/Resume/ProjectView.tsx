@@ -17,7 +17,7 @@ const ProjectView: FC<ProjectViewProps> = ({project}) => {
 
     return (
         <>
-            <Typography variant="body1" gutterBottom>{project.name}</Typography>
+            <Typography variant="body1" gutterBottom sx={{fontWeight: 700, color:'#ffff'}}>{project.name}</Typography>
             <Typography variant="body2" gutterBottom>{project.title}</Typography>
             <Grid container spacing={2}>
                 <Grid xs={12} md={2}>

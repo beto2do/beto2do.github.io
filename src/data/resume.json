@@ -77,8 +77,8 @@
                 {
                     "title": "Web UI Developer Sr",
                     "name": "SitusAMC",
-                    "startDate": "2020-10-01",
-                    "endDate": "2020-12-01",
+                    "startDate": "Oct 2020",
+                    "endDate": "Dic 2020",
                     "responsibilities": [
                         "Defined microservice and MVC architectures in .net core.",
                         "Analyzed communication with React front ends.",
