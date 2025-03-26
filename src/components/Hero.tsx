@@ -60,7 +60,7 @@ export default function Hero() {
                             color="text.secondary"
                             sx={{ alignSelf: 'justify' }}
                         >
-                            I am an accomplished software engineer, boasting an extensive 13-year background in analyzing, designing, developing, and integrating web application solutions. Proficient in Angular, React and Node.js. I excel in implementing enhancements to user experience and code quality. My attributes include being a fast learner, highly committed, and adaptable in various scenarios.
+                            I am an accomplished software engineer, boasting an extensive 14-year background in analyzing, designing, developing, and integrating web application solutions. Proficient in Angular, React and Node.js. I excel in implementing enhancements to user experience and code quality. My attributes include being a fast learner, highly committed, and adaptable in various scenarios.
                         </Typography>
                         <Typography
                             variant="h6"
