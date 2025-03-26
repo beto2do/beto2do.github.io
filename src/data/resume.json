@@ -3,8 +3,8 @@
     "shortName": "Humberto",
     "title": "Web UI Developer Sr, Software Engineer",
     "email": "humberto2do@gmail.com",
-    "phone": "510-604-46-14",
-    "summary": "I am an accomplished software engineer, boasting an extensive 13-year background in analyzing, designing, developing, and integrating web application solutions. EXPERT in Angular, React and Node.js. I excel in implementing enhancements to user experience and code quality. My attributes include being a fast learner, highly committed, and adaptable in various scenarios.",
+    "phone": "",
+    "summary": "I am an accomplished software engineer, boasting an extensive 14-year background in analyzing, designing, developing, and integrating web application solutions. Proficient in Angular, React and Node.js. I excel in implementing enhancements to user experience and code quality. My attributes include being a fast learner, highly committed, and adaptable in various scenarios.",
     "languages": [
         "Spanish (native - C2)",
         "English (advanced - B2)"
@@ -20,6 +20,31 @@
     ],
     "experience": [
         {
+            "company": "intelliswift",
+            "location": "Mexico City",
+            "projects": [
+                {
+                    "title": "Angular Developer Sr",
+                    "name":"Google Mexico",
+                    "startDate": "Oct 2024",
+                    "endDate": "Present",
+                    "responsibilities": [
+                        "Collaborated with the Google team to maintain an internal platform with Angular",
+                        "Developed new features for the platform and improve UX with error handle",
+                        "Developed and refactored unit tests."
+                    ],
+                    "tools": [
+                        "Angular 19",
+                        "RxJS",
+                        "Material UI",
+                        "Google development tools",
+                        "Typescript",
+                        "Automated tests"
+                    ]
+                }
+            ]
+        },
+        {
             "company": "Globant",
             "location": "San Francisco, CA",
             "projects": [
@@ -27,7 +52,7 @@
                     "title": "Web UI Developer Sr, Software Designer",
                     "name": "Google(FA)",
                     "startDate": "Jan 2024",
-                    "endDate": "Present",
+                    "endDate": "Jul 2024",
                     "responsibilities": [
                         "Integrated Chat Bot of Dialog Flow CX and highlighted it with React. That view is used in presales with clients.",
                         "Developed Video Advanced Search UI with NextJs, Material UI and React. Created a couple of components like: video player, carousel, form filters, modal, slide etc. Consumed Generative AI API to get videos where a text or image are sent to find videos that have those prompts.  The platform was shown in Google's Next 24 event and it got client demos for presales."
@@ -381,14 +406,14 @@
         {"name":"Angular", "level": "EXPERT"},
         {"name":"Typescript", "level": "EXPERT"},
         {"name":"Nextjs", "level": "EXPERT"},
-        {"name":"RxJs", "level": "FAMILIAR"},
-        {"name":"NgRx", "level": "FAMILIAR"},
+        {"name":"RxJs", "level": "EXPERT"},
+        {"name":"NgRx", "level": "EXPERT"},
         {"name":"JavaScript ES5 & ES6", "level": "EXPERT"},
         {"name":"NodeJs", "level": "EXPERT"},
-        {"name":"Bootstrap", "level": "EXPERT"},
+        {"name":"Bootstrap", "level": "FAMILIAR"},
         {"name":"Material UI", "level": "EXPERT"},
         {"name":"CSS & Sass", "level": "EXPERT"},
-        {"name":"Web Components", "level": "EXPERT"},
+        {"name":"Web Components", "level": "FAMILIAR"},
         {"name":"Server Side Rendering", "level": "EXPERT"},
         {"name":"Jest", "level": "EXPERT"},
         {"name":"RESTful Services", "level": "FAMILIAR"},

@@ -28,8 +28,8 @@ const ProjectView: FC<ProjectViewProps> = ({project}) => {
                     <List dense>
                         {project.responsibilities.map((responsibility) => (
                             <ListItem key={responsibility} dense>
-                                <ListItemIcon>
-                                    <CircleIcon fontSize='small' color='primary'/>
+                                <ListItemIcon sx={{ minWidth: 20 }}>
+                                    <CircleIcon sx={{ fontSize: 10 }} color='primary'/>
                                 </ListItemIcon>
                                 <ListItemText>{responsibility}</ListItemText>
                             </ListItem>
