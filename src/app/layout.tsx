@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from '@mui/material/styles';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v16-appRouter';
 import theme from "@/app/getLPTheme";
 import CssBaseline from '@mui/material/CssBaseline';
 import NavBar from "@/components/NavBar";
@@ -22,13 +23,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider theme={ theme }>
-          <CssBaseline />
-          <NavBar>
-            {children}
-          </NavBar>
-          <Footer />
-        </ThemeProvider>
+        <AppRouterCacheProvider>
+          <ThemeProvider theme={ theme }>
+            <CssBaseline />
+            <NavBar>
+              {children}
+            </NavBar>
+            <Footer />
+          </ThemeProvider>
+        </AppRouterCacheProvider>
       </body>
     </html>
   );

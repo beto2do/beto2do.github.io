@@ -115,12 +115,10 @@ export default function NavBar(props: Props) {
             </Typography>
             </Typography>
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-                    {navItems.map((item) => (
-                    <Link key={item.label} href={item.path}>
-                        <Button>
-                            {item.label}
-                        </Button>
-                    </Link>
+                {navItems.map((item) => (
+                    <Button key={item.label} component={Link} href={item.path}>
+                        {item.label}
+                    </Button>
                 ))}
             </Box>
             </Toolbar>
