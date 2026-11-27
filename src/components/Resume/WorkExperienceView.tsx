@@ -18,7 +18,7 @@ const WorkExperienceView: FC<WorkExperienceViewProps> = ({experiences}) => {
                     <Typography variant="h5" gutterBottom color="primary">Work Experience</Typography>
                 </Grid>
                 <Grid xs={12} md={10}>
-                    {experiences.map((experience) => <ExperienceView key={experience.company} experience={experience} />)}
+                    {experiences.map((experience) => <ExperienceView key={experience.id} experience={experience} />)}
                 </Grid>
             </Grid>
         </Box>

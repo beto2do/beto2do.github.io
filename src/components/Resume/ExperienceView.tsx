@@ -19,7 +19,7 @@ const ExperienceView: FC<ExperienceViewProps> = ({ experience }) => {
                 <ExperienceHeader company={experience.company} location={experience.location} />
             </AccordionSummary>
             <AccordionDetails>
-                {experience.projects.map((project) => <ProjectView key={project.name} project={project} />)}
+                {experience.projects.map((project) => <ProjectView key={project.id} project={project} />)}
             </AccordionDetails>
         </Accordion>
     );
