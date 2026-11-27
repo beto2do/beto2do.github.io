@@ -20,6 +20,38 @@
     ],
     "experience": [
         {
+            "id": "bizpro-mexico-city",
+            "company": "Bizpro",
+            "location": "Mexico City",
+            "projects": [
+                {
+                    "id": "",
+                    "title": "Angular Developer Sr",
+                    "name":"Bank of America",
+                    "startDate": "Jun 2025",
+                    "endDate": "Present",
+                    "responsibilities": [
+                        "Led migration of a legacy .NET web application to Angular micro-frontends, reducing page load time by 40%.",
+                        "Architected reusable Angular components shared across 5+ micro-frontends, cutting development time for new features by 30%.",
+                        "Migrated from Module Federation to Native Federation and upgraded Angular 20 → 22, ensuring zero downtime.",
+                        "Implemented Jenkins CI/CD pipeline (build, test, scan, deploy), improving deployment frequency from weekly to daily.",
+                        "Enforced clean code standards and refactored legacy modules, reducing unit test failures by 25%.",
+                        "Remediated vulnerabilities, reducing critical and high vulnerabilities to 0%."
+                    ],
+                    "tools": [
+                        "Angular 20-22",
+                        "Nodule Federation",
+                        "Native Federation",
+                        "GitHub Copilot",
+                        "Typescript",
+                        "Jest",
+                        "SonarQube",
+                        "Checkmarx"
+                    ]
+                }
+            ]
+        },
+        {
             "id": "intelliswift-mexico-city",
             "company": "intelliswift",
             "location": "Mexico City",
@@ -29,7 +61,7 @@
                     "title": "Angular Developer Sr",
                     "name":"Google Mexico",
                     "startDate": "Oct 2024",
-                    "endDate": "Present",
+                    "endDate": "Apr 2025",
                     "responsibilities": [
                         "Collaborated with the Google team to maintain an internal platform with Angular",
                         "Developed new features for the platform and improve UX with error handle",
@@ -439,19 +471,19 @@
         {"name":"Material UI", "level": "EXPERT"},
         {"name":"CSS & Sass", "level": "EXPERT"},
         {"name":"Web Components", "level": "FAMILIAR"},
-        {"name":"Server Side Rendering", "level": "EXPERT"},
+        {"name":"Native Federation", "level": "EXPERT"},
         {"name":"Jest", "level": "EXPERT"},
         {"name":"RESTful Services", "level": "FAMILIAR"},
         {"name":"git", "level": "EXPERT"},
         {"name":"Jenkins", "level": "FAMILIAR"},
-        {"name":"Cucumber", "level": "FAMILIAR"},
-        {"name":"Java", "level": "FAMILIAR"},
+        {"name":"GitHub Copilot", "level": "FAMILIAR"},
+        {"name":"Module Federation", "level": "FAMILIAR"},
         {"name":"SQL", "level": "FAMILIAR"},
         {"name":"Svelte.js", "level": "FAMILIAR"},
         {"name":"Webpack", "level": "FAMILIAR"},
         {"name":"Cypress", "level": "FAMILIAR"},
         {"name":"Jasmin", "level": "FAMILIAR"},
-        {"name":"Python", "level": "FAMILIAR"},
+        {"name":"Java", "level": "FAMILIAR"},
         {"name":"Redux", "level": "FAMILIAR"}
     ]
 }
