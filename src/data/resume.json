@@ -20,10 +20,12 @@
     ],
     "experience": [
         {
+            "id": "intelliswift-mexico-city",
             "company": "intelliswift",
             "location": "Mexico City",
             "projects": [
                 {
+                    "id": "intelliswift-google-mexico",
                     "title": "Angular Developer Sr",
                     "name":"Google Mexico",
                     "startDate": "Oct 2024",
@@ -45,10 +47,12 @@
             ]
         },
         {
+            "id": "globant-san-francisco",
             "company": "Globant",
             "location": "San Francisco, CA",
             "projects": [
                 {
+                    "id": "globant-google-fa",
                     "title": "Web UI Developer Sr, Software Designer",
                     "name": "Google(FA)",
                     "startDate": "Jan 2024",
@@ -67,6 +71,7 @@
                     ]
                 },
                 {
+                    "id": "citibank-wealth-program",
                     "title": "Web UI Developer Sr, Software Designer",
                     "name": "Citibank - Support Wealth Program",
                     "startDate": "Jan 2020",
@@ -100,6 +105,7 @@
                     ]
                 },
                 {
+                    "id": "situsamc-mexico-city",
                     "title": "Web UI Developer Sr",
                     "name": "SitusAMC",
                     "startDate": "Oct 2020",
@@ -120,6 +126,7 @@
                     ]
                 },
                 {
+                    "id": "rockwell-automation-mexico-city",
                     "title": "Web UI Developer Sr",
                     "name": "Rockwell Automation",
                     "startDate": "Jul 2020",
@@ -137,6 +144,7 @@
                     ]
                 },
                 {
+                    "id": "zaplabs-mexico-city",
                     "title": "Web UI Developer Sr",
                     "name": "Zaplabs LLC",
                     "startDate": "Jan. 2019",
@@ -165,10 +173,12 @@
             ]
         },
         {
+            "id": "globant-mexico-city",
             "company": "Globant",
             "location": "Mexico City",
             "projects": [
                 {
+                    "id": "globant-mexico-city-project-1",
                     "title": "Web UI Developer Sr",
                     "name": "Zaplabs LLC",
                     "startDate": "Jan. 2019",
@@ -195,6 +205,7 @@
                     ]
                 },
                 {
+                    "id": "globant-mexico-city-project-2",
                     "title": "Web UI Developer Semi Sr Advanced",
                     "name": "IHS Markit",
                     "startDate": "Nov. 2018",
@@ -211,6 +222,7 @@
                     ]
                 },
                 {
+                    "id": "zaplabs-mexico-city",
                     "title": "Web UI Developer Semi Sr",
                     "name": "Zaplabs LLC",
                     "startDate": "Jan. 2018",
@@ -232,6 +244,7 @@
                     ]
                 },
                 {
+                    "id": "citiBanamex-mexico-city",
                     "title": "Web UI Developer Semi Sr",
                     "name": "Citi Banamex",
                     "startDate": "Jul. 2017",
@@ -253,10 +266,12 @@
             ]
         },
         {
+            "id": "diesvi-mexico-city",
             "company": "Diesvi",
             "location": "Mexico City",
             "projects": [
                 {
+                    "id": "diesvi-technical-leader",
                     "title": "Technical Leader",
                     "name": "",
                     "startDate": "Jun. 2015",
@@ -282,10 +297,12 @@
             ]
         },
         {
+            "id": "clickonero-mexico-city",
             "company": "Clickonero",
             "location": "Mexico City",
             "projects": [
                 {
+                    "id": "clickonero-web-developer",
                     "title": "Web Developer",
                     "name": "",
                     "startDate": "Jun. 2013",
@@ -307,10 +324,12 @@
             ]
         },
         {
+            "id": "makingdevs-mexico-city",
             "company": "MakingDevs",
             "location": "Mexico City",
             "projects": [
                 {
+                    "id": "makingdevs-web-developer-sr",
                     "title": "Web Developer Sr (Grails framework)",
                     "name": "",
                     "startDate": "Dic. 2014",
@@ -329,10 +348,12 @@
             ]
         },
         {
+            "id": "tv-azteca-mexico-city",
             "company": "TV Azteca",
             "location": "Mexico City",
             "projects": [
                 {
+                    "id": "tv-azteca-web-developer-sr",
                     "title": "Web Developer Sr",
                     "name": "",
                     "startDate": "Oct. 2012",
@@ -358,10 +379,12 @@
             ]
         },
         {
+            "id": "ibm-mexico-city",
             "company": "Consultant in IBM",
             "location": "Mexico City",
             "projects": [
                 {
+                    "id": "ibm-mexico-city-project-1",
                     "title": "Web Developer Jr",
                     "name": "Project Afore Banamex",
                     "startDate": "Feb. 2011",
@@ -379,10 +402,12 @@
             ]
         },
         {
+            "id": "ixpan-mexico-city",
             "company": "IXPAN",
             "location": "Mexico City",
             "projects": [
                 {
+                    "id": "ixpan-mexico-city-project-1",
                     "title": "Java Developer Jr",
                     "name": "",
                     "startDate": "Jan. 2010",

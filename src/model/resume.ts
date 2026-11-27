@@ -21,12 +21,14 @@ export interface Education {
 }
 
 export interface Experience {
+    id: string;
     company: string;
     location: string;
     projects: Project[];
 }
 
 export interface Project {
+    id: string;
     name: string;
     startDate: string;
     endDate: string;

@@ -49,7 +49,7 @@ const navItems = [
 
 export default function NavBar(props: Props) {
   const { window } = props;
-  const [mobileOpen, setMobileOpen] = React.useState(false);
+  const [mobileOpen, setMobileOpen] = React.useState<boolean>(false);
   const router = useRouter();
 
   const handleDrawerToggle = () => {
